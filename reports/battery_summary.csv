@@ -1,0 +1,7 @@
+,total_eur,eur_per_mw_per_year,capture_rate,losing_days
+perfect_foresight,222344.331,104519.005,1.0,0
+naive_yesterday,191548.232,90042.461,0.861,15
+ridge,204315.957,96044.277,0.919,15
+lightgbm,205216.365,96467.538,0.923,8
+ensemble,207860.536,97710.503,0.935,4
+lightgbm_tso_lookahead,213185.482,100213.639,0.959,3

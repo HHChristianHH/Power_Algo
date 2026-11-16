@@ -1,0 +1,6 @@
+,share_of_hours,mae_baseline,mae_model,bias_model,share_of_total_error
+Normal (0 to 200 EUR),0.881,27.234,15.272,-3.322,0.762
+Negative price,0.059,34.181,17.64,-0.983,0.058
+Spike (above 200 EUR),0.06,71.513,52.948,-31.332,0.18
+Low wind (below 3 GW),0.085,40.506,29.554,-8.838,0.143
+"Low wind and no sun, 07-20h",0.016,79.473,60.933,-10.586,0.056

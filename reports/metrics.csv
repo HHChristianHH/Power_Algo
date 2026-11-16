@@ -1,0 +1,9 @@
+,MAE,RMSE,rMAE
+naive_yesterday,30.298,48.199,1.0
+naive_last_week,39.235,62.476,1.295
+ridge,18.747,30.64,0.619
+lightgbm,17.672,29.221,0.583
+lightgbm_price_only,27.936,43.28,0.922
+lightgbm_tso_lookahead,15.604,26.805,0.515
+lightgbm_fuel_mix,17.544,29.101,0.579
+ensemble,17.108,28.029,0.565

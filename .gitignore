@@ -1,0 +1,15 @@
+# Secrets: the ENTSO-E token lives in .env and must never be committed
+.env
+
+# Downloaded data is reproducible from the scripts, so it stays out of git.
+# The leading slash means "only the data folder at the project root";
+# without it, the code in src/powerfc/data/ would be ignored too.
+/data/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.ipynb_checkpoints/
+.DS_Store
